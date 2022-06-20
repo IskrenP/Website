@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>w4schools</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+  <style>
+    /* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Images, just for this example */
+.img {
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Programming Wikipedia by <em>Iskren Petrov</em></h1>
+  <p>The page is under development</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html" class="right">Login/Register</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Computer programming in basics:</h2>
+    <div style="height:200px;"><img src="pics/code-coding.gif" style="height:200px;"></div>
+    
+    
+  </div>
+  
+  <div class="main">
+    
+    <h5>Computer programming is the process of performing a particular computation (or more generally, accomplishing a specific computing result), usually by designing and building an executable computer program. Programming involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms (usually in a chosen programming language, commonly referred to as coding). The source code of a program is written in one or more languages that are intelligible to programmers, rather than machine code, which is directly executed by the central processing unit. The purpose of programming is to find a sequence of instructions that will automate the performance of a task (which can be as complex as an operating system) on a computer, often for solving a given problem. Proficient programming thus usually requires expertise in several different subjects, including knowledge of the application domain, specialized algorithms, and formal logic.</h5>
+    
+    <h5>Tasks accompanying and related to programming include testing, debugging, source code maintenance, implementation of build systems, and management of derived artifacts, such as the machine code of computer programs. These might be considered part of the programming process, but often the term software development is used for this larger process with the term programming, implementation, or coding reserved for the actual writing of code. Software engineering combines engineering techniques with software development practices. Reverse engineering is a related process used by designers, analysts, and programmers to understand and re-create/re-implement.</h5>
+    <br>
+    
+
+    
+  </div>
+</div>
+
+<div class="footer">
+  <p>© Created by <a href="contact.html" target="_blank">Iskren Petrov</a>
+  </p>
+</div>
+
+</body>
+</html>
